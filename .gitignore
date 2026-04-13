@@ -1,0 +1,24 @@
+SFML/
+# Exécutables (le programme compilé)
+*.exe
+*.out
+*.app
+
+# Fichiers objets et bibliothèques
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+
+# Dossiers générés par l'IDE (Visual Studio, VS Code, etc.)
+.vscode/
+.vs/
+bin/
+obj/
+out/
+build/
+
+# Fichiers de log et temporaires
+*.log
+*.tmp
