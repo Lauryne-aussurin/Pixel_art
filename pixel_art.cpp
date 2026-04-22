@@ -123,6 +123,19 @@ int main()
                     couleurPinceau = sf::Color::Blue;
                     nomCouleur = "Bleu";
                 }
+
+                // touche c = Clear :
+                if (keyPressed->code == sf::Keyboard::Key::C)
+                {
+                    for (int i = 0; i < nb_lignes; i++)
+                    {
+                        for (int j = 0; j < nb_colonnes; j++)
+                        {
+                            grille[i][j].setFillColor(sf::Color::White);
+                        }
+                    }
+                    nomCouleur = "Clear";
+                }
             }
 
             if (event->is<sf::Event::Closed>())
